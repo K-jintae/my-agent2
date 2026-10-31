@@ -11,3 +11,4 @@ page_1=st.Page("page_1.py",title='1페이지')
 pages=st.navigation([page_1],position="top")
 
 pages.run()
+

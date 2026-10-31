@@ -79,7 +79,7 @@ agent = create_agent(
 if "messages" not in st.session_state :
     st.session_state.messages = []
 
-st.title("우리 회사 챗봇")
+st.title("실시간 챗봇")
 
 prompt = st.chat_input("여기에 입력하시오.")
 if prompt:
